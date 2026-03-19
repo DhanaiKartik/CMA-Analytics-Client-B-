@@ -57,7 +57,6 @@ models:
           source_system: "d365cma"
 
     gold:
-      +access: public
       +materialized: view
       +schema: gold_mesh
       +tags: ["gold"]
